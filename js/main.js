@@ -82,11 +82,32 @@
 //     console.log(prop);
 // }
 
-let ourDogs = [];
-ourDogs.push({owner: 'Bryon', name: 'Winston', breed: 'Twist', age: 17});
-ourDogs.push({owner: 'Lori', name: 'Garry', breed: 'Black', age: 2});
-console.log(ourDogs);
+// let ourDogs = [];
+// ourDogs.push({owner: 'Bryon', name: 'Winston', breed: 'Twist', age: 17});
+// ourDogs.push({owner: 'Lori', name: 'Garry', breed: 'Black', age: 2});
+// console.log(ourDogs);
+//
+// ourDogs.forEach(function(taco){
+//     console.log(taco.name, taco.age)
+// });
 
-ourDogs.forEach(function(taco){
-    console.log(taco.name, taco.age)
-});
+let phrase = 'The phrase of phrases';
+// console.log(phrase.indexOf('f'));
+// console.log(phrase.indexOf('of'))
+// // let newPhrase = phrase.replace(/brown/g, 'if'); ---global selection
+// console.log(newPhrase);
+
+let greeting = 'Hello Cohort 21';
+let newGreeting = greeting.slice(3,8);
+console.log(newGreeting);
+
+
+let phraseSplit = phrase.split(' ');
+console.log(phraseSplit)
+
+let exiting = 'Goodbye class';
+let exitingUpper = exiting.toUpperCase();
+console.log(exitingUpper)
+
+let newDialog = greeting.concat(' and ', exiting);
+console.log(newDialog)
